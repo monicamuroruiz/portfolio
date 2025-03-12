@@ -5,7 +5,7 @@ import './Flipbook.css';
 
 // Correct image imports (assuming these are in the src folder)
 
-import img1 from '../images/flipbook/bookjpg';
+import img1 from '../images/flipbook/book.jpg';
 import img2 from '../images/flipbook/book2.jpg';
 import img3 from '../images/flipbook/book3.jpg';
 import img4 from '../images/flipbook/book4.jpg';
