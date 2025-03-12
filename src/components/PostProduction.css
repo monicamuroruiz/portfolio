@@ -1,0 +1,98 @@
+.post-production {
+  position: relative; /* Ensure it stays in normal flow */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+  top: 0px;
+
+  }
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 20px;
+  }
+  
+  .categories h2 {
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    margin: 0 20px;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+    color: var(--disabled)
+  }
+  
+  .categories h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+  
+  .categories h2:hover::after,
+  .categories h2.active::after {
+    width: 100%;
+  }
+  
+  .categories h2:hover {
+    color: var(--accent); /* Hover effect */
+  }
+  
+  .categories h2.active {
+    color: var(--active); /* Highlight active header */
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--disabled);
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  
+  .dot.active {
+    background: var(--active);
+  }
+  .dot:hover{
+    color: var(--accent);
+  }
+
+  .image-display {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;  /* Fade transition */
+  }
+  
+  /* Final state: visible */
+  .image-display.loaded {
+    opacity: 1;
+  }
+
+  .loading-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .loading-container img {
+    max-width: 100px; /* Adjust size as needed */
+    max-height: 100px;
+  }
+  

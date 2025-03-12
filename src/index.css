@@ -1,0 +1,27 @@
+body {
+  font-family: "Italiana", serif;
+  font-weight: 500;
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
+:root {
+  --accent: #afafaf; /* Set accent color to #333 */
+  --disabled: rgb(143, 143, 143); /* Set disabled color to white */
+  --active: rgb(0, 0, 0);
+  --background: #ffffff; /* Define background color */
+
+}
+
