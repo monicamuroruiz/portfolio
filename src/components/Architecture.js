@@ -103,7 +103,7 @@ img44,
 
 function Architecture() {
   return (
-    <div>
+    <div className='Architecture-div'>
       <Flipbook images={images} />
     </div>
   );
