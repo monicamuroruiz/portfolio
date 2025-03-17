@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c0cdd57c.css",
-    "main.js": "/portfolio/static/js/main.0f7b5a75.js",
+    "main.css": "/portfolio/static/css/main.301547fd.css",
+    "main.js": "/portfolio/static/js/main.b8231fa0.js",
     "static/media/good7.jpg": "/portfolio/static/media/good7.6392e44cb2e69ef2004b.jpg",
     "static/media/good6.jpg": "/portfolio/static/media/good6.9fa1629ed03750a397b5.jpg",
     "static/media/good9.jpg": "/portfolio/static/media/good9.fa2f32b938f35ef34685.jpg",
@@ -45,6 +45,7 @@
     "static/media/bad10.jpg": "/portfolio/static/media/bad10.2133b4a5a50f3891d735.jpg",
     "static/media/bad9.jpg": "/portfolio/static/media/bad9.d371ac322a3f83e151f0.jpg",
     "static/media/CV2024.pdf": "/portfolio/static/media/CV2024.fbbf491dc2729ffbfa56.pdf",
+    "static/media/DESIGN2024.pdf": "/portfolio/static/media/DESIGN2024.d2a54b07ebb8d87271cb.pdf",
     "static/media/book21.jpg": "/portfolio/static/media/book21.ba05c61a3ddae8d18306.jpg",
     "static/media/book40.jpg": "/portfolio/static/media/book40.7e71d3373ffa3a7cb299.jpg",
     "static/media/book10.jpg": "/portfolio/static/media/book10.5c9e6d2745e71ab1ab8f.jpg",
@@ -99,11 +100,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/portfolio/index.html",
-    "main.c0cdd57c.css.map": "/portfolio/static/css/main.c0cdd57c.css.map",
-    "main.0f7b5a75.js.map": "/portfolio/static/js/main.0f7b5a75.js.map"
+    "main.301547fd.css.map": "/portfolio/static/css/main.301547fd.css.map",
+    "main.b8231fa0.js.map": "/portfolio/static/js/main.b8231fa0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0cdd57c.css",
-    "static/js/main.0f7b5a75.js"
+    "static/css/main.301547fd.css",
+    "static/js/main.b8231fa0.js"
   ]
 }
