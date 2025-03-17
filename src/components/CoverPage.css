@@ -45,12 +45,16 @@
   padding: 0 30px;
   width: 100%; /* Ensures it doesn't shrink */
 }
-
+.buttons
+{
+  display: inline-flex;
+  gap: 10px;
+}
 
 
 
 .download-btn {
-  display: inline-block;
+
   color: white;
   background-color: black;
   border-radius: 10px;

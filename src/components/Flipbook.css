@@ -1,12 +1,18 @@
-.Architecture-div
-{
-  height: 100vh;
+.Architecture-div {
+  min-height: 100vh;
+  background-color: var(--background-gray);
+
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
 }
+
+
 .flipbook-container {
   display: flex;
   flex-direction: column;
 
-  margin-top: 100px;
+  padding-top: 100px;
 
 
   justify-content: center; /* Centers content horizontally */
@@ -17,8 +23,8 @@
 /* Book */
 .book {
   position: relative;
-  width: 990px;
-  height: 765px;
+  width: 40vw;
+  height: calc(40vw * 765 / 990); /* Maintain aspect ratio */
   transition: transform 0.5s;
 }
 
@@ -52,11 +58,12 @@
 .front {
   z-index: 1;
   backface-visibility: hidden;
-  border-left: 3px solid rgb(71, 71, 71);
+  
 }
 
 .back {
   z-index: 0;
+  border-left: 3px solid rgb(58, 58, 58);
 }
 
 .front-content,

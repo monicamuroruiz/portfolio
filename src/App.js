@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div className="app-containers">
+    <div>
       <NavMenu activeComponent={activeComponent} setActiveComponent={setActiveComponent} />
       {renderComponent()}
     </div>

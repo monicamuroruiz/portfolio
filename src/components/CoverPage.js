@@ -1,17 +1,24 @@
 import React from "react";
 import "./CoverPage.css";
 import img1 from '../images/MoniCover.png';
-import fileDownload from '../files/CV2024.pdf'; // Change to your actual file
+import CVFile from '../files/CV2024.pdf'; // Change to your actual file
+import DesignFile from '../files/DESIGN2024.pdf'; // Change to your actual file
 
 const CoverPage = () => {
   return (
     <div className="cover-page">
       <div className="cover-column left-column">
         <div className="download-section">
-          <p>Hi! My name is Monica, I’m a private, introvert, strong person, but also a very creative, sensitive and resilient human being. To learn more about my work and experience click here.</p>
-          <a href={fileDownload} target="_blank" rel="noopener noreferrer" className="download-btn">
-        CV
-      </a>
+          <p>Hello! My name is Monica. I am an introvert and strong individual with a deep sense of creativity, sensitivity, and resilience. For more information regarding my professional experience and background, please click here.</p>
+          <div className="buttons">
+            <a href={CVFile} target="_blank" rel="noopener noreferrer" className="download-btn">
+            CV
+            </a>
+            <a href={DesignFile} target="_blank" rel="noopener noreferrer" className="download-btn">
+            DESIGN
+            </a>
+          </div>
+          
         </div>
       </div>
 
