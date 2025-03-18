@@ -1,0 +1,60 @@
+.design {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--disabled);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dot.active {
+    background: var(--active);
+  }
+  
+  .dot:hover {
+    background: var(--accent);
+  }
+  
+  .image-before-after-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: var(--image-aspect-ratio);
+  }
+  
+  .spinner-border {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    border-width: 4px;
+    border-color: var(--accent) transparent var(--accent) transparent;
+    border-style: solid;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

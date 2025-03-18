@@ -59,7 +59,7 @@ const ImageBeforeAfterWidget = ({ imgBefore, imgAfter, aspectRatio }) => {
           src={imgAfter}
           alt="After"
           className="image-widget-image"
-          
+          loading="lazy" 
         />
         <div className="label after-label">After</div>
       </div >
@@ -71,6 +71,7 @@ const ImageBeforeAfterWidget = ({ imgBefore, imgAfter, aspectRatio }) => {
           src={imgBefore}
           alt="Before"
           className="image-widget-image before-image"
+          loading="lazy" 
           
         />
         <div className="label before-label">Before</div>
