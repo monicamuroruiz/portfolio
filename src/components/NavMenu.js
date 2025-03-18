@@ -6,7 +6,7 @@ const NavMenu = ({ activeComponent, setActiveComponent }) => {
     { label: 'Monica Muro', id: 'name', component: 'CoverPage' },
     { label: 'Architecture', id: 'architecture', component: 'Architecture' },
     { label: 'Post Production', id: 'post-production', component: 'PostProduction' },
-    { label: 'Design', id: 'design', component: 'Design' },
+    { label: 'Real State', id: 'design', component: 'Design' },
     { label: 'Photography', id: 'photography', component: 'Photography' },
   ];
 

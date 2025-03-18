@@ -1,6 +1,9 @@
 body {
-  font-family: "Italiana", serif;
-  font-weight: 500;
+  /*font-family: "Italiana", serif;*/
+  /*font-family: "Prata", serif;*/
+  font-family: "Unna", serif;
+  /*font-family: "Playfair Display", serif;*/
+  font-weight: 300;
   font-style: normal;
 
   -webkit-font-smoothing: antialiased;
