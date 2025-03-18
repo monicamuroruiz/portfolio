@@ -2,27 +2,27 @@ import React, { useState } from 'react';
 import './Photography.css';
 
 import imageBackground from '../images/image_background.jpg';
-import img1 from '../images/photography/img1.jpg';
-import img2 from '../images/photography/img2.jpg';
-import img3 from '../images/photography/img3.jpg';
-import img4 from '../images/photography/img4.jpg';
-import img5 from '../images/photography/img5.jpg';
-import img6 from '../images/photography/img6.jpg';
-import img7 from '../images/photography/img7.jpg';
-import img8 from '../images/photography/img8.jpg';
-import img9 from '../images/photography/img9.jpg';
-import img10 from '../images/photography/img10.jpg';
-import img11 from '../images/photography/img11.jpg';
-import img12 from '../images/photography/img12.jpg';
-import img13 from '../images/photography/img13.jpg';
-import img14 from '../images/photography/img14.jpg';
-import img15 from '../images/photography/img15.jpg';
-import img16 from '../images/photography/img16.jpg';
-import img17 from '../images/photography/img17.jpg';
-import img18 from '../images/photography/img18.jpg';
-import img19 from '../images/photography/img19.jpg';
-import img20 from '../images/photography/img20.jpg';
-import img21 from '../images/photography/img21.jpg';
+import img1 from '../images/photography/tiny/img1.jpg';
+import img2 from '../images/photography/tiny/img2.jpg';
+import img3 from '../images/photography/tiny/img3.jpg';
+import img4 from '../images/photography/tiny/img4.jpg';
+import img5 from '../images/photography/tiny/img5.jpg';
+import img6 from '../images/photography/tiny/img6.jpg';
+import img7 from '../images/photography/tiny/img7.jpg';
+import img8 from '../images/photography/tiny/img8.jpg';
+import img9 from '../images/photography/tiny/img9.jpg';
+import img10 from '../images/photography/tiny/img10.jpg';
+import img11 from '../images/photography/tiny/img11.jpg';
+import img12 from '../images/photography/tiny/img12.jpg';
+import img13 from '../images/photography/tiny/img13.jpg';
+import img14 from '../images/photography/tiny/img14.jpg';
+import img15 from '../images/photography/tiny/img15.jpg';
+import img16 from '../images/photography/tiny/img16.jpg';
+import img17 from '../images/photography/tiny/img17.jpg';
+import img18 from '../images/photography/tiny/img18.jpg';
+import img19 from '../images/photography/tiny/img19.jpg';
+import img20 from '../images/photography/tiny/img20.jpg';
+import img21 from '../images/photography/tiny/img21.jpg';
 
 const Photography = () => {
   const images = [

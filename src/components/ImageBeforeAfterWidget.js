@@ -55,24 +55,32 @@ const ImageBeforeAfterWidget = ({ imgBefore, imgAfter, aspectRatio }) => {
       <img src={imgAfter} alt="After" className="image-widget-image" />*/}
 
       <div>
+      <picture>
+
         <img
           src={imgAfter}
           alt="After"
           className="image-widget-image"
        
         />
+           </picture>
         <div className="label after-label">After</div>
       </div >
       
 
       {/* Foreground (Before) with clip-path */}
       <div className="image-wrapper" style={{ clipPath: `inset(0 ${100 - linePosition}% 0 0)` }}>
-        <img
+        <picture>
+       
+          <img
           src={imgBefore}
           alt="Before"
           className="image-widget-image before-image"
+          />
 
-        />
+        </picture>
+          
+
         <div className="label before-label">Before</div>
       </div >
 

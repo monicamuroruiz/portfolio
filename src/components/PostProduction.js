@@ -7,12 +7,12 @@ const importImages = (context) => context.keys().map(context);
 
 const PostProduction = () => {
   // Import images from each category and organize them
-  const colorCorrectionGood = importImages(require.context('../images/PostProduction/ColorCorrection/Good', false, /\.(jpg|tif)$/));
-  const colorCorrectionBad = importImages(require.context('../images/PostProduction/ColorCorrection/Bad', false, /\.(jpg|tif)$/));
-  const retouchPeopleGood = importImages(require.context('../images/PostProduction/RetouchPeople/Good', false, /\.(jpg|tif)$/));
-  const retouchPeopleBad = importImages(require.context('../images/PostProduction/RetouchPeople/Bad', false, /\.(jpg|tif)$/));
-  const removalsGood = importImages(require.context('../images/PostProduction/Removals/Good', false, /\.(jpg|tif)$/));
-  const removalsBad = importImages(require.context('../images/PostProduction/Removals/Bad', false, /\.(jpg|tif)$/));
+  const colorCorrectionGood = importImages(require.context('../images/PostProduction/ColorCorrection/good_tiny', false, /\.(jpg|tif)$/));
+  const colorCorrectionBad = importImages(require.context('../images/PostProduction/ColorCorrection/bad_tiny', false, /\.(jpg|tif)$/));
+  const retouchPeopleGood = importImages(require.context('../images/PostProduction/RetouchPeople/good_tiny', false, /\.(jpg|tif)$/));
+  const retouchPeopleBad = importImages(require.context('../images/PostProduction/RetouchPeople/bad_tiny', false, /\.(jpg|tif)$/));
+  const removalsGood = importImages(require.context('../images/PostProduction/Removals/good_tiny', false, /\.(jpg|tif)$/));
+  const removalsBad = importImages(require.context('../images/PostProduction/Removals/bad_tiny', false, /\.(jpg|tif)$/));
 
   // State to track the current category, image pair, and aspect ratio
   const [currentCategory, setCurrentCategory] = useState('ColorCorrection');
