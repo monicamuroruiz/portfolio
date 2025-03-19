@@ -4,6 +4,10 @@ import img1 from '../images/MoniCover.png';
 import CVFile from '../files/CV2024.pdf'; // Change to your actual file
 import DesignFile from '../files/DESIGN2024.pdf'; // Change to your actual file
 
+import instaIcon from '../instagram-icon.svg';
+
+
+
 const CoverPage = () => {
   return (
     <div className="cover-page">
@@ -18,8 +22,16 @@ const CoverPage = () => {
             DESIGN
             </a>
           </div>
+
+          <div className = "contact-icons">
+          <a href="https://www.instagram.com/momenticos.mx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" >
+              <img src={instaIcon} alt="Instagram" className="icon-class" />
+          </a>
+        </div>
           
         </div>
+
+        
       </div>
 
       <div className="cover-column right-column">
@@ -34,6 +46,8 @@ const CoverPage = () => {
         </div>
 
       </div>
+      
+      
     </div>
   );
 };

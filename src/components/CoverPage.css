@@ -23,7 +23,7 @@
   align-items: flex-end; /* Aligns content to the bottom */
   height: 100%;
  
-  bottom: 5vw;
+  bottom: 0vw;
 }
 
 .right-column {
@@ -40,7 +40,7 @@
 /****************************************** Download section */
 .download-section {
   position: absolute; /* Ensures it moves independently */
-  bottom: 5vw; /* Places it 5vw from the bottom */
+  bottom: 2vw; /* Places it 5vw from the bottom */
   text-align: center;
   padding: 0 30px;
   width: 100%; /* Ensures it doesn't shrink */
@@ -109,6 +109,27 @@
   max-width: 550px;
 }
 
+.contact-icons {
+
+
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+
+.icon-class {
+  filter: invert(1); /* Inverts colors, making black icons white */
+  border-radius: 50%; /* Makes it a circle */
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: white;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   .cover-page {
@@ -153,6 +174,8 @@
     order: -1; /* Moves right column above left */
   }
 }
+
+
 
 
 
