@@ -83,6 +83,7 @@ const ImageBeforeAfterWidget = ({ imgBefore, imgAfter, aspectRatio }) => {
 
         <div className="label before-label">Before</div>
       </div >
+      
 
       {/* Draggable Divider Line */}
       <div
@@ -102,6 +103,8 @@ const ImageBeforeAfterWidget = ({ imgBefore, imgAfter, aspectRatio }) => {
           <i className="right-arrow fas fa-angle-right arrow-right" style={{ fontSize: '22px', color: 'white' }}></i>
         </div>
       </div>
+
+      
 
       {/*<div className="label after-label">After</div>*/}
       

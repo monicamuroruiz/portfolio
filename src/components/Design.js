@@ -95,6 +95,7 @@ const Design = () => {
           )}
         </div>
       )}
+      <p className='copyright-disclaimer'>Image source: Not owned by me.</p>
     </div>
   );
 };
