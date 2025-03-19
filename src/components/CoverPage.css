@@ -44,24 +44,33 @@
   text-align: center;
   padding: 0 30px;
   width: 100%; /* Ensures it doesn't shrink */
+
+  justify-content: center;
 }
-.buttons
-{
-  display: inline-flex;
-  gap: 10px;
-}
+
+
 
 
 
 .download-btn {
-
+  display: inline-block; /* Make sure it respects width and height */
   color: white;
   background-color: black;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 15px;
+  padding: 5px 20px;
   font-weight: bold;
   text-decoration: none;
+  min-width: 30%;
+  text-align: center;
 }
+
+.buttons {
+  display: flex; /* Keep it flexible */
+  gap: 10px;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+}
+
 
 .download-btn:hover {
   color: white;
@@ -148,9 +157,15 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 10vh;
-    padding: 5vh 0; /* Adds space around */
+    bottom: 5vh;
+    padding: 0vh 0; /* Adds space around */
   }
+
+  .contact-icons {
+    padding-top: 30px;
+  }
+  
+
   
   .right-column {
     width: 100%;

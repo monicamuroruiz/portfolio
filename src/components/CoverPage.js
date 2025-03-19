@@ -24,10 +24,10 @@ const CoverPage = () => {
           </div>
 
           <div className = "contact-icons">
-          <a href="https://www.instagram.com/momenticos.mx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" >
-              <img src={instaIcon} alt="Instagram" className="icon-class" />
-          </a>
-        </div>
+            <a href="https://www.instagram.com/momenticos.mx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" >
+                <img src={instaIcon} alt="Instagram" className="icon-class" />
+            </a>
+          </div>
           
         </div>
 
